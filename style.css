@@ -50,10 +50,11 @@ header {
 
 .hero-wrapper {
   /* position:absolute; */
-  background-image: url(/assets/illustration-header-mobile.svg);
+  background-image: url(./assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-position: 100% 40%;
+  background-position: 100% 70%;
+  background-attachment: fixed;
   height: 100vh;
 }
    
