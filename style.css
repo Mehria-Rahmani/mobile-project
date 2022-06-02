@@ -50,7 +50,7 @@ header {
 
 .hero-wrapper {
   /* position:absolute; */
-  background-image: url(../assets/illustration-header-mobile.svg);
+  background-image: url(/assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position: 100% 40%;
@@ -66,10 +66,9 @@ header {
   line-height: 64px;
   padding-top: 23%;
   margin-top: 23%;
-  
 }
 
-.job-title {
+  .job-title {
     font-style: normal;
     font-family: 'Roboto';
       color: white;
