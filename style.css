@@ -365,6 +365,7 @@ font-size: 72px;
 line-height: 88px;
 letter-spacing: 0.37px;
 color: #ff6b00;
+margin-top: 25%;
 }
 
 .help {
@@ -377,4 +378,31 @@ color: #ff6b00;
   line-height: 24px;
   color: #f4f5f7;
 
+}
+
+.btnabout {
+width: 137px;
+height: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+
+.about-en {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+width: 161px;
+height: 48px;
+background: #ff6b00;
+margin-bottom: 45%;
 }
