@@ -50,7 +50,7 @@ header {
 }
 
 .hero-wrapper {
-  background-image: url(.assets/illustration-header-mobile.svg);
+  background-image: url(assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position: 100% 60%;
@@ -114,7 +114,7 @@ header {
 }
 
 .recent {
-  background-image: url(.assets/Vector.png);
+  background-image: url(assets/Vector.png);
   width: 327px;
   height: 0px;
   border: 1px solid #212121;
@@ -122,7 +122,7 @@ header {
 }
 
 .placeholder {
-  background-image: url(.assets/Img\ Placeholder.png);
+  background-image: url(assets/Img\ Placeholder.png);
   width: 327px;
   height: 237px;
 }
