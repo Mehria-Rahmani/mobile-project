@@ -104,25 +104,25 @@ header {
 }
 
 .recent {
-  background-color:  #E5E5E5;
-  color: #1C1A19;
-  font-family: Crete Round, sans-serif;
-  font-weight: 400px;
-  font-size: 40px;
-  line-height: 52px;
-  margin-bottom: 20%;
   text-align: center;
   border-bottom: #000 3px;
+  font-family: Crete Round;
+  font-size: 40px;
+  font-weight: 400;
   font-style: normal;
+  font-weight: normal;
+  line-height: 52px;
   height: 83px;
+  margin-bottom: 20px;
 }
 
-.recent {
-  background-image: url(assets/Vector.png);
-  width: 327px;
-  height: 0px;
-  border: 1px solid #212121;
-  margin: 40%;
+.recentwo {
+  color: #1c1a19;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  padding: 120px 24px 120px 24px;
+  grid-template-columns: 327px;
 }
 
 .placeholder {
@@ -174,49 +174,83 @@ header {
 }
 
 .html {
-width: 32px;
-height: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #091E42;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
 .css {
-  width: 25px;
-  height: 20px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 49px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
   font-size: 15px;
-  line-height: 20px; 
-  color: #091E42;
-  gap: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
 .ruby {
-  width: 37px;
-  height: 20px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
   font-size: 15px;
+  font-weight: 500;
   line-height: 20px;
-  color: #091E42;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
 .boots{
-width: 71px;
-height: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #091E42;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
 
+.technology {
+  display: felx;
+  height: 40px;
+  margin-bottom: 12px;
 }
 
 .button1 {
