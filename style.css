@@ -244,14 +244,6 @@ color: #091E42;
   background-color: #f55800;
 }
 
-.card-cont{
-  height: 386px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-   rgba(38, 38, 38, 0.9) 61.94%),
-    url(assets/Img\ Placeholder\ \(1\).png);
-    padding: 0 16px;
-  padding-top: 84px;
-}
 
 .cards{
   padding-top: 30px;
@@ -259,6 +251,10 @@ color: #091E42;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
+}
+
+.work .card-content{
+  display: flex;
 }
 
 .title3 {
@@ -294,62 +290,77 @@ background: rgba(255, 255, 255, 0.24);
 }
 
 .html3 {
-width: 32px;
-height: 20px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 56px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
 }
 
 .boots3 {
-width: 71px;
-height: 20px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
 }
 
 .ruby3 {
-width: 37px;
-height: 20px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 20px;
-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.24);
 }
 
-/*.btn3 {
-width: 100px;
-height: 24px;
-font-family: Inter;
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+.btn3 {
+  text-align:center;
+  letter-spacing: 0.03em;
+  color: white;
+  width: 300px;
+  padding: 0;
+  background: #FF6B00;
+  height: 60pxpx;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px
 }
 
-.btn3-enable {
-position: absolute;
-width: 327px;
-height: 48px;
-left: 0px;
-top: 0px;
-background: #FF6B00;
-}
-*/
 
 .white {
   background: #e5e5e5;
