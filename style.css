@@ -355,6 +355,16 @@ background: #FF6B00;
   background: #e5e5e5;
 }
 
+.img {
+  padding: 120px 24px;
+  background-color: #1c1a19;
+  background-image: url(assets/Frame.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 280px;
+  
+}
+
 .about {
 width: 327px;
 height: 79px;
@@ -377,7 +387,6 @@ margin-top: 25%;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-
 }
 
 .btnabout {
