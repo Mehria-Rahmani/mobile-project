@@ -153,12 +153,6 @@ header {
   margin-bottom: 12px;
 }
 
-.ul1 {
-  display: felx;
-  height: 40px;
-  margin-bottom: 12px;
-}
-
 .ul {
   display: flex;
   flex-direction: row;
@@ -176,7 +170,52 @@ header {
   margin: 0 12px 0 0;
   padding: 10px 12px;
   box-sizing: border-box;
-  gap: 40px;
+}
+
+.html {
+width: 32px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #091E42;
+}
+
+.css {
+  width: 25px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px; 
+  color: #091E42;
+  gap: 10px;
+}
+
+.ruby {
+  width: 37px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
+}
+
+.boots{
+width: 71px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #091E42;
+
 }
 
 .button1 {
@@ -189,10 +228,10 @@ header {
   font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
-  border: none;
+  border: none
 }
 
-buttonenabled {
+button-enabled {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -203,3 +242,4 @@ buttonenabled {
   color: #fff;
   background-color: #f55800;
 }
+
