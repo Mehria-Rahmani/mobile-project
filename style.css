@@ -231,7 +231,7 @@ color: #091E42;
   border: none
 }
 
-button-enabled {
+.button-enabled {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -243,3 +243,108 @@ button-enabled {
   background-color: #f55800;
 }
 
+.card-cont{
+  height: 386px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
+   rgba(38, 38, 38, 0.9) 61.94%),
+    url(assets/Img\ Placeholder\ \(1\).png);
+    padding: 0 16px;
+  padding-top: 84px;
+}
+
+.cards{
+  padding-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 1fr;
+}
+
+.title3 {
+width: 295px;
+height: 81px;
+font-family: Crete Round;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+}
+ 
+.descrip3 {
+width: 295px;
+height: 87px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.ul3 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 12px;
+width: 56px;
+height: 40px;
+background: rgba(255, 255, 255, 0.24);
+}
+
+.html3 {
+width: 32px;
+height: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.boots3 {
+width: 71px;
+height: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.ruby3 {
+width: 37px;
+height: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.button3 {
+width: 100px;
+height: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.button-enable3 {
+position: absolute;
+width: 327px;
+height: 48px;
+left: 0px;
+top: 0px;
+background: #FF6B00;
+}
