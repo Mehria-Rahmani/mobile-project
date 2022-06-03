@@ -53,7 +53,7 @@ header {
   background-image: url(assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-position: 100% 30%;
+  background-position: 100% 60%;
   background-attachment: fixed;
   height: 100vh;
 }
@@ -99,11 +99,16 @@ header {
   right: 0;
 }
 
-.d-flex {
-  display: flex;
+.recent-works{
+  color: #1c1a19;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  padding: 120px 24px 120px 24px;
+  grid-template-columns: 327px;
 }
 
-.recent {
+.recent-works h3{
   text-align: center;
   border-bottom: #000 3px;
   font-family: Crete Round;
@@ -116,52 +121,47 @@ header {
   margin-bottom: 20px;
 }
 
-.recentwo {
-  color: #1c1a19;
-  background-color: white;
-  display: grid;
-  justify-content: center;
-  padding: 120px 24px 120px 24px;
-  grid-template-columns: 327px;
+.recent-works img{
+  margin-top: 80px;
+  margin-bottom: 24px;
+  width: 100%;
 }
-
-.placeholder {
-  background-image: url(assets/Img\ Placeholder.png);
-  width: 327px;
-  height: 237px;
-  background-color: #E5E5E5;;
-}
-
-.stitle{
+.recent-works h4{
   text-align: left;
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #091E42;
+  color: #091e42;
 }
-
-.content {
+.recent-works p{
   text-align: left;
   font-family: Inter;
-  font-style: normal;
-  font-style: normal;
+  font-style:normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color:  #091E42;;
   margin-bottom: 12px;
+  color: #091e42;
 }
 
-.ul {
+.technology {
+  display: felx;
+  height: 40px;
+  margin-bottom: 12px;
+}
+li {
+  float: left;
+}
+
+.recent-works .css{
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 49px;
   height: 40px;
   border: 1px solid #8993A4;
-  list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -173,7 +173,7 @@ header {
   box-sizing: border-box;
 }
 
-.html {
+.recent-works .HTML {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -192,43 +192,7 @@ header {
   box-sizing: border-box;
 }
 
-.css {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 49px;
-  height: 40px;
-  border: 1px solid #8993A4;
-  font-family: Inter, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  font-style: normal;
-  color: #091e42;
-  margin: 0 12px 0 0;
-  padding: 10px 12px;
-  box-sizing: border-box;
-}
-
-.ruby {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 61px;
-  height: 40px;
-  border: 1px solid #8993A4;
-  font-family: Inter, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  font-style: normal;
-  color: #091e42;
-  margin: 0 12px 0 0;
-  padding: 10px 12px;
-  box-sizing: border-box;
-}
-
-.boots{
+.recent-works .boots {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -247,13 +211,25 @@ header {
   box-sizing: border-box;
 }
 
-.technology {
-  display: felx;
+.recent-works .ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 61px;
   height: 40px;
-  margin-bottom: 12px;
+  border: 1px solid #8993A4;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  color: #091e42;
+  margin: 0 12px 0 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
 }
 
-.button1 {
+button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -263,10 +239,10 @@ header {
   font-weight: 700px;
   font-size: 17px;
   line-height: 24px;
-  border: none
+  border: none;
 }
 
-.button-enabled {
+button:enabled:not(.project-button){
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -278,52 +254,59 @@ header {
   background-color: #f55800;
 }
 
+button:hover:not(.project-button){
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  border: 1px solid #f55b00;
+  background-color: #fff5e1;
+  color: #F55800;
+}
 
-.cards{
+button:active:not(.project-button) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e05304;
+  border: 1px solid #f55b00;
+  color: #f4f1f0;
+}
+
+.recent-works button:not(.project-button){
+  width: 124px;
+  height: 48px;
+  float: left;
+}
+
+.cards-section {
   padding-top: 30px;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: 1fr;
 }
+.card-content{
+  height: 386px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
+   rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
+  padding: 0 16px;
+  padding-top: 84px;
+}
 
-.work .card-content{
+.card-content > p{
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 24px;
+  color: white;
+}
+.work-card .card-content > ul{
   display: flex;
 }
 
-.title3 {
-width: 295px;
-height: 81px;
-font-family: Crete Round;
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 44px;
-color: #ffffff;
-}
- 
-.descrip3 {
-width: 295px;
-height: 87px;
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #ffffff;
-}
-
-.ul3 {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px 12px;
-width: 56px;
-height: 40px;
-background: rgba(255, 255, 255, 0.24);
-}
-
-.html3 {
+.card-content .html{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -342,7 +325,7 @@ background: rgba(255, 255, 255, 0.24);
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.boots3 {
+.card-content .Boot{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -361,7 +344,7 @@ background: rgba(255, 255, 255, 0.24);
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.ruby3 {
+.card-content .Ruby{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -378,9 +361,10 @@ background: rgba(255, 255, 255, 0.24);
   box-sizing: border-box;
   color: white;
   background-color: rgba(255, 255, 255, 0.24);
+
 }
 
-.btn3 {
+button {
   text-align:center;
   letter-spacing: 0.03em;
   color: white;
@@ -393,70 +377,42 @@ background: rgba(255, 255, 255, 0.24);
   font-weight: 700;
   font-size: 17px;
   line-height: 24px
-}
+} 
 
-
-.white {
-  background: #e5e5e5;
-}
-
-.img {
+.my-about-page{
   padding: 120px 24px;
   background-color: #1c1a19;
   background-image: url(assets/Frame.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 280px;
-  
+}
+.about-text > h2{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
 }
 
-.about {
-width: 327px;
-height: 79px;
-font-family: Crete Round;
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 88px;
-letter-spacing: 0.37px;
-color: #ff6b00;
-margin-top: 25%;
+.hr{
+  padding-top: 142px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
 }
 
-.help {
-  width: 327px;
-  height: 148px;
+.about-text >p{
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #f4f5f7;
-}
-
-.btnabout {
-width: 137px;
-height: 24px;
-font-family: Inter;
-font-style: normal;
-font-weight: 700;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #ffffff;
-}
-
-.about-en {
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
-width: 161px;
-height: 48px;
-background: #ff6b00;
-margin-bottom: 45%;
+  color: #F4F5F7;
+  margin: 24px 0;
+  width: 327px;
+  height: 148px; 
 }
