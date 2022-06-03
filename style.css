@@ -354,3 +354,15 @@ background: #FF6B00;
 .white {
   background: #E5E5E5;
 }
+
+.about {
+width: 327px;
+height: 79px;
+font-family: Crete Round;
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 88px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+}
