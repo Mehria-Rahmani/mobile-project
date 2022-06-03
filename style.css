@@ -269,7 +269,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 44px;
-color: #FFFFFF;
+color: #ffffff;
 }
  
 .descrip3 {
@@ -280,7 +280,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-color: #FFFFFF;
+color: #ffffff;
 }
 
 .ul3 {
@@ -301,7 +301,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 20px;
-color: #FFFFFF;
+color: #ffffff;
 }
 
 .boots3 {
@@ -312,7 +312,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 20px;
-color: #FFFFFF;
+color: #ffffff;
 }
 
 .ruby3 {
@@ -323,7 +323,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 20px;
-color: #FFFFFF;
+color: #ffffff;
 }
 
 /*.btn3 {
@@ -352,7 +352,7 @@ background: #FF6B00;
 */
 
 .white {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .about {
@@ -364,5 +364,17 @@ font-weight: 400;
 font-size: 72px;
 line-height: 88px;
 letter-spacing: 0.37px;
-color: #FF6B00;
+color: #ff6b00;
+}
+
+.help {
+  width: 327px;
+  height: 148px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+
 }
