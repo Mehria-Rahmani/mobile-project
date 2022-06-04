@@ -55,7 +55,7 @@ header {
   background-image: url(assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-position: 100% 60%;
+  background-position: 100% 70%;
   background-attachment: fixed;
   height: 100vh;
 }
