@@ -308,7 +308,7 @@ button:active:not(.project-button) {
   display: flex;
 }
 
-.card-content .html{
+.card-content .html-values{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -327,7 +327,7 @@ button:active:not(.project-button) {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.card-content .Boot{
+.card-content .Boot-values{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -346,7 +346,7 @@ button:active:not(.project-button) {
   background-color: rgba(255, 255, 255, 0.24);
 }
 
-.card-content .Ruby{
+.card-content .Ruby-values{
   display: flex;
   flex-direction: row;
   align-items: center;
