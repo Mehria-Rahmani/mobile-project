@@ -59,7 +59,7 @@ header {
 }
 
 .hero-wrapper {
-  background-image:url(assets/illustration-header-mobile.svg);
+  background-image: url(assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position: 100% 70%;
@@ -108,7 +108,7 @@ header {
   right: 0;
 }
 
-.recent-works{
+.recent-works {
   color: #1c1a19;
   background-color: white;
   display: grid;
@@ -117,7 +117,7 @@ header {
   grid-template-columns: 327px;
 }
 
-.recent-works h3{
+.recent-works h3 {
   text-align: center;
   border-bottom: #000 3px;
   font-family: Crete Round, sans-serif;
@@ -134,6 +134,7 @@ header {
   margin-bottom: 24px;
   width: 100%;
 }
+
 .recent-works h4 {
   text-align: left;
   font-family: Crete Round, sans-serif;
@@ -143,10 +144,11 @@ header {
   line-height: 44px;
   color: #091e42;
 }
+
 .recent-works p {
   text-align: left;
   font-family: Inter, sans-serif;
-  font-style:normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -160,10 +162,6 @@ header {
   margin-bottom: 12px;
 }
 
-li {
-  float: left;
-}
-
 .social_media {
   width: 200px;
   padding-top: 20px;
@@ -173,13 +171,13 @@ li {
   height: 300px;
 }
 
-.recent-works .css{
+.recent-works .css {
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 49px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -197,7 +195,7 @@ li {
   align-items: center;
   width: 56px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
@@ -216,7 +214,7 @@ li {
   align-items: center;
   width: 95px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   list-style: none;
   font-family: Inter, sans-serif;
   font-size: 15px;
@@ -235,12 +233,12 @@ li {
   align-items: center;
   width: 61px;
   height: 40px;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  font-style: normal;
+  font-style: Inter, sans-serif;
   color: #091e42;
   margin: 0 12px 0 0;
   padding: 10px 12px;
@@ -456,7 +454,7 @@ button:active {
 .title3 {
   width: 295px;
   height: 81px;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
