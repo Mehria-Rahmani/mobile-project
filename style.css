@@ -31,7 +31,13 @@ li {
   background-color: white;
 }
 
-
+.logo {
+  color: white;
+  font-size: 17px;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 60px;
+}
 
 header a {
   color: white;
@@ -49,6 +55,8 @@ header {
   font-family: 'Roboto', sans-serif;
   background: #3c3a39;
   align-items: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .hero-wrapper {
@@ -156,6 +164,16 @@ header {
 li {
   float: left;
 }
+
+.social_media {
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
 
 .recent-works .css{
   display: flex;
@@ -291,7 +309,7 @@ button:active:not(.project-button) {
 .card-content{
   height: 386px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-   rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder2.png);
+   rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder\ \(4\).png);
   padding: 0 16px;
   padding-top: 84px;
 }
@@ -389,6 +407,7 @@ button {
   background-position-x: right;
   background-position-y: 280px;
 }
+
 .about-text > h2{
   font-family: 'Crete Round';
   font-style: normal;
@@ -420,37 +439,44 @@ button {
 }
   .skill-part li {
     padding: 10px 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
   }
 
-  .languages-part {
-    color: white;
-    font-family: InaiMathi;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    align-items: center;
-    margin-bottom: 100%;
-  }
-  
-  .framework-part{
-    color: white;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin-top: 40%;
-    padding-bottom: 10px;
-  }
-  
-  .skills {
+.languages-part {
+  width: 164px;
+  height: 24px;
+  font-family: InaiMathi;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.framework-part{
     color: white;
     font-family: Inter;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .skills-part {
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    flex-direction: column;
   } 
    
   .skill-value {
@@ -460,11 +486,15 @@ button {
     font-size: 22px;
     line-height: 43px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
   }
   .vector{
     margin: 1px;
     width: 18px;
     height: 18px;
     border-radius: 150px;
+    display: flex;
+    flex-direction: column;
   }
 
