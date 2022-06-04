@@ -59,7 +59,7 @@ header {
 }
 
 .hero-wrapper {
-  background-image: url(assets/illustration-header-mobile.svg);
+  background-image:url(assets/illustration-header-mobile.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-position: 100% 70%;
