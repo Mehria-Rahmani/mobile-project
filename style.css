@@ -24,12 +24,14 @@ li {
 }
 
 .bar {
-  display: block;
+  display: flex;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   background-color: white;
 }
+
+
 
 header a {
   color: white;
@@ -65,8 +67,8 @@ header {
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-  padding-top: 10x;
-  margin-top: 45%;
+  padding-top: 50x;
+  margin-top:45%;
 }
 
 .job-title {
@@ -416,3 +418,53 @@ button {
   width: 327px;
   height: 148px; 
 }
+  .skill-part li {
+    padding: 10px 0;
+  }
+
+  .languages-part {
+    color: white;
+    font-family: InaiMathi;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    margin-bottom: 100%;
+  }
+  
+  .framework-part{
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 40%;
+    padding-bottom: 10px;
+  }
+  
+  .skills {
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  } 
+   
+  .skill-value {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 43px;
+    list-style: none;
+  }
+  .vector{
+    margin: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 150px;
+  }
+
