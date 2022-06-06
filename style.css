@@ -120,10 +120,9 @@ header {
 .recent-works h3 {
   text-align: center;
   border-bottom: #000 3px;
-  font-family: Crete Round, sans-serif;
   font-size: 40px;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   line-height: 52px;
   height: 83px;
   margin-bottom: 20px;
@@ -135,9 +134,19 @@ header {
   width: 100%;
 }
 
-.recent-works h4 {
+.card-content > h4 {
   text-align: left;
-  font-family: Crete Round, sans-serif;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.recent-works h4:not(.title) {
+  text-align: left;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -146,8 +155,8 @@ header {
 }
 
 .recent-works p {
+  font-family: 'Inter', sans-serif;
   text-align: left;
-  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -156,19 +165,9 @@ header {
   color: #091e42;
 }
 
-.technology {
-  display: felx;
+.tech-used {
   height: 40px;
   margin-bottom: 12px;
-}
-
-.social_media {
-  width: 200px;
-  padding-top: 20px;
-  padding-left: 25px;
-  display: flex;
-  justify-content: space-between;
-  height: 300px;
 }
 
 .recent-works .css {
@@ -238,7 +237,7 @@ header {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  font-style: inter, sans-serif;
+  font-style: normal;
   color: #091e42;
   margin: 0 12px 0 0;
   padding: 10px 12px;
@@ -246,7 +245,9 @@ header {
 }
 
 button {
+  padding: 12px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -346,7 +347,7 @@ button:active {
   width: 95px;
   height: 40px;
   border: 1px solid #8993a4;
-  font-family: inter, sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -392,6 +393,7 @@ button:active {
 }
 
 .about-text > h2 {
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -401,6 +403,7 @@ button:active {
 }
 
 .about-text > p {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -443,7 +446,8 @@ button:active {
   padding: 10px 0;
 }
 
-.languages {
+.my-languages {
+  font-family: 'InaiMathi', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -451,17 +455,8 @@ button:active {
   line-height: 44px;
 }
 
-.title3 {
-  width: 295px;
-  height: 81px;
-  font-family: Crete Round, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-}
-
 .my-frameworks {
+  font-family: 'Inter', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
@@ -470,6 +465,7 @@ button:active {
 }
 
 .my-skills {
+  font-family: 'Inter', sans-serif;
   color: white;
   font-style: normal;
   font-weight: 700;
