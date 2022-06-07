@@ -170,6 +170,11 @@ header {
   margin-bottom: 12px;
 }
 
+.tech-used li{
+  float: left;
+
+}
+
 .recent-works .css {
   display: flex;
   flex-direction: row;
@@ -258,12 +263,13 @@ button {
   border: none;
 }
 
-form button {
+/*form button {
   padding: 12px;
   width: 131px;
   height: 48px;
   align-self: center;
 }
+*/
 
 button:enabled {
   color: #fff;
@@ -390,6 +396,7 @@ button:active {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 280px;
+ 
 }
 
 .about-text > h2 {
@@ -486,4 +493,100 @@ button:active {
   width: 18px;
   height: 18px;
   border-radius: 150px;
+}
+
+.contact {
+ background-color: #fff;
+ padding: 0 24px;
+
+}
+
+.contact h1{
+width: 327px;
+height: 216px;
+font-family: 'Inter' ,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #172B4D;
+margin-top: 120px;
+}
+
+.contact-container {
+align-items: center;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 120px;
+}
+
+form li{
+ margin-bottom: 24px;
+
+}
+
+form {
+  margin-top: 73px;
+}
+
+
+#name {
+  width: 327px;
+  height: 48px;
+  border: none;
+}
+
+#email {
+  width: 327px;
+  height: 48px;
+  border: none;
+}
+
+#message {
+  width: 327px;
+height: 114px;
+border: none;
+background-color: #FBF8F7;;
+}
+
+form button{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+width: 131px;
+height: 48px;
+background: #FF6B00;
+margin-left: 98px;
+margin-right: 98px;
+}
+
+.icon ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ margin: 23px 0;
+}
+
+.icon li{
+  padding-left: 15px;
+}
+
+#twitter {
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid #DFE1E6;;
+}
+
+#home-indicator {
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
 }
