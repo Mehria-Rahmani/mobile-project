@@ -279,21 +279,30 @@ form button {
   margin-right: 98px;
 }
 
+form button:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+}
+
 button:enabled {
   color: #fff;
   background-color: #f55800;
 }
 
 button:hover {
-  border: 1px solid #f55b00;
+  border: 1px solid #FFF5E1;
   background-color: #fff5e1;
   color: #f55800;
 }
 
 button:active {
-  background-color: #e05304;
+  background-color: #E05304;
   border: 1px solid #f55b00;
   color: #f4f1f0;
+}
+
+button:disabled {
+  background: #F4F1F0;
 }
 
 .recent-works button {
