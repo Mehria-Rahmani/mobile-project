@@ -14,7 +14,6 @@
 
 <body>
         <header class="container d-flex">
-
                 <a href="#home" class="logo">Mehria Rahmani</a>
                 <nav>
                 <div class="hamburger">
@@ -229,11 +228,11 @@
         <section class="contact">
             <div class="contact-container">
             <h1>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
-            <form>
+            <form action="https://formspree.io/f/{form_id}" method="post">
                <ul>
-            <li><input name="name"  id="name" required type="text" placeholder="Full name"><hr></li>
+            <li><input name="name"  id="name" required maxlength="30" type="text" placeholder="Full name"><hr></li>
             <li><input name="email-address"  id="email" required type="email" placeholder="Email address"><hr></li>
-            <li><textarea name="message" id="message" placeholder="Enter text here"></textarea></li>
+            <li><textarea name="message" id="message" minlength="500" placeholder="Enter text here"></textarea></li>
             <li class="contact-btn"><button type="button">Get in touch</button></li>
               </ul>
         </form>
