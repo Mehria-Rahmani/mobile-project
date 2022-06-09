@@ -82,6 +82,11 @@ header {
   line-height: 64px;
   padding-top: 50px;
   margin-top: 45%;
+  transition: transform 1s;
+}
+
+.headline:hover{
+  transform: scale(0.5);
 }
 
 .job-title {
