@@ -36,12 +36,18 @@ li {
   padding: 0 20px;
   text-decoration: none;
   line-height: 60px;
+  transition: width 2s, height 2s, transform 1s;
+}
+
+.logo:hover {
+transform: rotate(5deg);
 }
 
 header a {
   color: white;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 header {
@@ -76,6 +82,11 @@ header {
   line-height: 64px;
   padding-top: 50px;
   margin-top: 45%;
+  transition: transform 1s;
+}
+
+.headline:hover{
+  transform: scale(0.5);
 }
 
 .job-title {
