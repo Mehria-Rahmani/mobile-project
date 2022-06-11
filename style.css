@@ -18,6 +18,9 @@ header {
   position: fixed;
   display: flex;
   background-color: #3c3a39;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 1;
 }
 
 nav {
@@ -191,7 +194,6 @@ nav {
 
 .project-1 {
   display: flex;
-  width: 350px;
   justify-content: center;
   flex-direction: column;
 }
