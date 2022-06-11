@@ -24,6 +24,22 @@ nav {
   z-index: 2;
 }
 
+.mobile-header {
+  padding: 0 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mobile-header h1 {
+  margin-right: auto;
+}
+
+.hamburger {
+  float: right;
+}
+
 .logo {
   height: 24px;
   width: 24px;
@@ -786,24 +802,34 @@ nav {
   .contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .lastpage-heading {
-    margin: 50px 30px 0 30px;
+    margin: 50px 0 0 30px;
+    width: 28rem;
     font-family: 'Inter', sans-serif;
     font-style: bold;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    text-align: justify;
   }
 
   .form {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 70px;
   }
 
   .fullname {
+    margin-top: 20px;
     padding: 20px;
+  }
+
+  .text-area {
+    background: #f4f1f1;
+    margin-top: 20px;
   }
 
   .button-end {
