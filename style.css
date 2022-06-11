@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   margin: 0 24px 0 0;
 }
 
@@ -37,16 +37,17 @@ nav {
 
 .logo2 {
   text-decoration: none;
+  display: flex;
   color: #fff;
-  margin: 23.94px 100% 23.94px 24px;
+  margin: 23.94px auto 23.94px 24px;
   height: 20px;
   font-size: 18px;
-  display: flex;
   font-weight: 700;
 }
 
 .humb {
-  margin-left: 100%;
+  display: flex;
+  margin-right: 10px;
 }
 
 .logo {
@@ -190,6 +191,7 @@ nav {
 
 .project-1 {
   display: flex;
+  width: 350px;
   justify-content: center;
   flex-direction: column;
 }
@@ -483,6 +485,10 @@ nav {
     display: none;
   }
 
+  .humb {
+    display: none;
+  }
+
   .menu-desktop-container {
     display: flex;
     flex-direction: row;
@@ -596,6 +602,7 @@ nav {
     right: 0;
     width: 50%;
     height: auto;
+    top: 70px;
   }
 
   .b-img-1 {
@@ -892,6 +899,9 @@ nav {
     grid-column-start: 2;
     margin-left: 0;
     margin-top: -50%;
+  }
+  .mobile {
+    display: none;
   }
 }
 
