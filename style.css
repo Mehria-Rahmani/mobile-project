@@ -13,14 +13,14 @@ body {
   background-color: #1c1a19;
 }
 
-header{
-  width:100vw;
+header {
+  width: 100vw;
   position: fixed;
   display: flex;
   background-color: #3c3a39;
 }
+
 nav {
-  
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -28,27 +28,26 @@ nav {
   z-index: 2;
 }
 
-.mobile{
+.mobile {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 15px;
 }
-.logo2{
+
+.logo2 {
   text-decoration: none;
   color: #fff;
   margin: 23.94px 100% 23.94px 24px;
- 
   height: 20px;
   font-size: 18px;
   display: flex;
   font-weight: 700;
 }
 
-.humb{
+.humb {
   margin-left: 100%;
 }
-
 
 .logo {
   height: 24px;
