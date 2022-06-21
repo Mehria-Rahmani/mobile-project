@@ -1,10 +1,11 @@
 const menu = document.querySelector('.menu');
-const mobileMenu = document.querySelector('.mobile-menu');
+
+const mobileMenu = document.querySelector('.mob-menu');
 menu.addEventListener('click', () => {
   mobileMenu.classList.remove('display-mobile');
 });
 
-const closeIcon = document.querySelector('header .mobile-menu .close-menu a');
+const closeIcon = document.querySelector('header .mobile-menu .close a');
 closeIcon.addEventListener('click', () => {
-  mobileMenu.classList.add('display-mobile');
+  mobileMenu.classList.add('display-mob');
 });
