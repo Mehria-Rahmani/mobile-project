@@ -16,7 +16,6 @@ body {
 header {
   width: 100vw;
   position: fixed;
-  display: flex;
   background-color: #3c3a39;
   margin-top: 0;
   margin-left: 0;
@@ -25,10 +24,15 @@ header {
 
 nav {
   top: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 24px 24px 24px;
   z-index: 2;
+}
+
+.nav-ul {
+padding: 0;
+list-style-type: none;
+display: none;
+gap: 20px;
+align-items: center;
 }
 
 .mobile {
@@ -59,9 +63,19 @@ nav {
 }
 
 .menu {
-  display: flex;
   height: 24px;
   width: 24px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_bar {
+  display: flex;
+  align-items: center;
 }
 
 .menu-desktop-container {
@@ -478,8 +492,16 @@ nav {
 }
 
 @media (min-width: 768px) {
-  .menu {
+  .menu_bar {
     display: none;
+  }
+  
+.nav-ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
   }
 
   .humb {
@@ -899,6 +921,44 @@ nav {
   .mobile {
     display: none;
   }
+}
+
+.mobile-container {
+  position: fixed;
+  background-color: #3C3A39;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  justify-content: space-between;
+  padding: 0 25px 0 25px;
+}
+
+.menu-close {
+  font-size: 60px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-menu {
+  display: grid;
+}
+
+.mobile-menu ul a {
+  margin:20px;
+  
+  }
+  
+.mobile-navlink {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Inter';
+  color: #FFF5E1;
+  line-height: 44px;
+  text-decoration: none;
 }
 
 .contact-me {
