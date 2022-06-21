@@ -2,7 +2,7 @@ const menu = document.querySelector('.menu');
 
 const mobileMenu = document.querySelector('.mob-menu');
 menu.addEventListener('click', () => {
-  mobileMenu.classList.remove('display-mobile');
+  mobileMenu.classList.remove('display-mob');
 });
 
 const closeIcon = document.querySelector('header .mobile-menu .close a');
