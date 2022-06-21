@@ -943,7 +943,9 @@ ul {
 }
 
 .mobile-menu {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
 }
 
 .mobile-menu ul a {
@@ -951,12 +953,16 @@ ul {
 }
 
 .mobile-navlink {
+  display: flex;
   font-size: 32px;
   font-weight: 700;
   font-family: 'Inter', sans-serif;
   color: #fff5e1;
   line-height: 44px;
   text-decoration: none;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 .contact-me {
