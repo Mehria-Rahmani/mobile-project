@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Mehria Rahmani Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +18,68 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link href="style.css" rel="stylesheet">
-    <link href="css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+    <script src="./jsfiles/index.js"></script>
 </head>
 
 <body>
     <header class="header">
-    <a href="" class="logo2">Mehria</a>
     
-        <nav class="statusbar">
+    <nav class="nav">
+      <ul class="nav-container">
+        <li><a href="" class="logo2">Mehria</a></li>
+        <li>
+            <ul class="nav-ul">
+                <li> <a class="menu-desktop menu-links" href="">Portoflio</a></li>
+                <li> <a class="menu-desktop menu-links" href="#">About</a></li>
+                <li> <a class="menu-desktop menu-links" href="#">Contact</a></li>
+                <li> <a class="menu-desktop menu-links" href="#"><img alt="this is Email link" src="assets/mail.png"></a></li>
+            
+            </ul>
+        </li> 
+        <li class="menu_bar">
+           <img class="menu" src="./assets/Union.png" alt="menu-bar" />
+         </li>
+      </ul>
+
+        <!-- mobile menu -->
+        <div class="mobile-container">
+            <ul class="mobile-menu">
+                <li> <a href="#blackpage" class="mobile-navlink">Portfolio</a></li>
+                <li><a href="#page4" class="mobile-navlink">About</a></li>
+                <li><a href="#lastpage" class="mobile-navlink">Contact</a></li>
+            </ul>
+            <ul>
+                <li  class="menu-close">&times</li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <!-- <div class="mob-menu display-mob">
+        <div class="close mobile">
+            <a href="#"><img src="assets/Close.png" alt="Close-icon"></a>
+        </div> 
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+    -->
+
+        <!-- <nav class="">
             <div class="menu-desktop-container">
-                <a class="menu-desktop" href="#">Portoflio</a>
-                <a class="menu-desktop" href="#">About</a>
-                <a class="menu-desktop" href="#">Contact</a>
-                <a class="menu-desktop" href="#"><img alt="this is Email link" src="assets/mail.png"></a>
+                <a class="menu-desktop menu-links" href="">Portoflio</a>
+                <a class="menu-desktop menu-links" href="#">About</a>
+                <a class="menu-desktop menu-links" href="#">Contact</a>
+                <a class="menu-desktop menu-links" href="#"><img alt="this is Email link" src="assets/mail.png"></a>
             </div>
-            <div class="mobile">
-              <img class="humb" src="./assets/Union.png" alt="It is link to menu">
-            </div>
-        </nav>
+    
+    </nav>
+</div> -->
+    
     </header>
+
     <section class="page1-content blackpage">
       <div class="header-text">
         <h1 class="my-name">Hey There.<br>I'm Mehria</h1>
@@ -115,7 +156,7 @@
                         <img alt="It is ruby Icon" class="icon-web" src="assets/icons/puby.png">
                     </li>
                 </ul>
-                <form>
+                <form action="https://github.com/Mehria-Rahmani"  method="get" target="_blank">
                     <button type="submit" class="animate-btn project-desktop-button button1 button1-text">See
                         Project</button>
                 </form>
@@ -379,6 +420,8 @@
             </li>   
         </ul>
     </section>
+    <script rel="text/Javascript"  src="./jsfiles/index.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>
