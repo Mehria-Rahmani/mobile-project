@@ -930,7 +930,7 @@ nav {
   width: 100vw;
   display: none;
   justify-content: space-between;
-  padding: 0 25px 0 25px;
+  margin: 0 25px 0 25px;
 }
 
 .menu-close {
@@ -963,6 +963,7 @@ ul {
   padding-bottom: 20px;
   padding-top: 20px;
   border-bottom: 1px solid #6f6c6b;
+  margin-right: 0;
 }
 
 .contact-me {
