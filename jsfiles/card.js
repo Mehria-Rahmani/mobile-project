@@ -3,7 +3,7 @@ const projects = {
     name: 'First Project',
     desc: "first project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image: '../images/Snapshoot Portfolio.png',
-    techs: ['html', 'css', 'ruby'],
+    techs: ['html', 'bootstrap', 'Ruby'],
     live: '',
     source: '',
   },
@@ -11,7 +11,7 @@ const projects = {
     name: 'Second Project',
     desc: "second project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image: '../images/Snapshoot Portfolio.png',
-    techs: ['JS', 'Codepen', 'VScode'],
+    techs: ['html', 'Bootstrap', 'Ruby'],
     live: '"',
     sourse: '',
   },
@@ -20,7 +20,7 @@ const projects = {
     desc: "Third project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
       '../images/Snapshoot Portfolio.png',
-    techs: ['JS', 'Codepen', 'VScode'],
+    techs: ['html', 'Bootstrap', 'Ruby'],
     live: '',
     source: '',
   },
@@ -29,7 +29,7 @@ const projects = {
     desc: "Fourth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
       '../images/Snapshoot Portfolio.png',
-    techs: ['JS', 'Python', 'VScode'],
+    techs: ['html', 'Bootstrap', 'Ruby'],
     live: '',
     source: '',
   },
@@ -38,7 +38,7 @@ const projects = {
     desc: "Fifth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
       '../images/Snapshoot Portfolio.png',
-    techs: ['JS', 'Springboot', 'VScode'],
+    techs: ['html', 'Bootstrap', 'Ruby'],
     live: '',
     source: '',
   },
@@ -47,7 +47,7 @@ const projects = {
     desc: "Sixth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
       '../images/Snapshoot Portfolio.png',
-    techs: ['JS', 'Codepen', 'VScode'],
+    techs: ['html', 'Bootstrap', 'Ruby'],
     live: '',
     source: '',
   },
