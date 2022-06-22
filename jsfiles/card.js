@@ -10,7 +10,6 @@ const projects = {
     live: '',
     source: '',
   },
-  
   first: {
     name: 'First Project',
     desc: `first project description <br> Lorem Ipsum is simply. 
@@ -79,7 +78,6 @@ const projects = {
 };
 
 const workCards = document.querySelector('.workCards');
-
 
 function openPopup(proName) {
   document.querySelector('.container').style.overflow = 'hidden';
