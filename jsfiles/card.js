@@ -8,7 +8,7 @@ const projects = {
 <<<<<<< HEAD
     techs: ['html', 'bootstrap', 'Ruby'],
 =======
-    techs: ['html', 'css', 'Ruby'],
+    techs: ['html', 'bootstrap', 'Ruby'],
 >>>>>>> 500ddbb78b4b8441fb345e3dec9bb659333277e9
     live: '',
     source: '',
