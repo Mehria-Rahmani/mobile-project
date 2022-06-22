@@ -1,15 +1,19 @@
 const projects = {
   first: {
     name: 'First Project',
-    desc: "first project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `first project description <br> Lorem Ipsum is simply. 
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image: '../images/Snapshoot Portfolio.png',
-    techs: ['html', 'css', 'ruby'],
+    techs: ['html', 'css', 'Ruby'],
     live: '',
     source: '',
   },
   second: {
     name: 'Second Project',
-    desc: "second project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `second project description <br> Lorem Ipsum is simply.
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image: '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Codepen', 'VScode'],
     live: '"',
@@ -17,7 +21,9 @@ const projects = {
   },
   third: {
     name: 'Third project',
-    desc: "Third project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `Third project description <br> Lorem Ipsum is simply. 
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image:
       '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Codepen', 'VScode'],
@@ -26,7 +32,9 @@ const projects = {
   },
   fourth: {
     name: 'Fourth Project',
-    desc: "Fourth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `Fourth project description <br> 
+           Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+           when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image:
       '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Python', 'VScode'],
@@ -35,7 +43,9 @@ const projects = {
   },
   fifth: {
     name: 'Fifth Project',
-    desc: "Fifth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `Fifth project description <br> Lorem Ipsum is simply. 
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image:
       '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Springboot', 'VScode'],
@@ -44,7 +54,9 @@ const projects = {
   },
   sixth: {
     name: 'Sixth Project',
-    desc: "Sixth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
+    desc: `Sixth project description <br> Lorem Ipsum is simply. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.`,
     image:
       '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Codepen', 'VScode'],
