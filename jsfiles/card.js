@@ -19,7 +19,7 @@ const projects = {
     name: 'Third project',
     desc: "Third project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
-      'https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+      '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Codepen', 'VScode'],
     live: '',
     source: '',
@@ -28,7 +28,7 @@ const projects = {
     name: 'Fourth Project',
     desc: "Fourth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
-      'https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+      '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Python', 'VScode'],
     live: '',
     source: '',
@@ -37,7 +37,7 @@ const projects = {
     name: 'Fifth Project',
     desc: "Fifth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
-      'https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+      '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Springboot', 'VScode'],
     live: '',
     source: '',
@@ -46,7 +46,7 @@ const projects = {
     name: 'Sixth Project',
     desc: "Sixth project description <br> Lorem Ipsum is simply. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.",
     image:
-      'https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80',
+      '../images/Snapshoot Portfolio.png',
     techs: ['JS', 'Codepen', 'VScode'],
     live: '',
     source: '',
