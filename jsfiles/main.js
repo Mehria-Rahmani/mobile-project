@@ -37,3 +37,6 @@ subBtn.addEventListener('click', (event) => {
     event.preventDefault();
   }
 });
+email.addEventListner('input',() => {
+  document.getElementById('error').style.visibility = 'hidden'
+})
