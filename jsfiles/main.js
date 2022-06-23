@@ -37,4 +37,3 @@ subBtn.addEventListener('click', (event) => {
     event.preventDefault();
   }
 });
-
