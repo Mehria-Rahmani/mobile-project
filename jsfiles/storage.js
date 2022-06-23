@@ -44,7 +44,6 @@ function restoreValues() {
 }
 
 restoreValues();
-
 // whenever a user changes values in the form
 // this function update the values in local storage
 function updateValues() {
@@ -56,7 +55,6 @@ function updateValues() {
 
 // select form elements
 const formInputs = document.querySelectorAll('.formin');
-
 // add event listener for all form elements
 formInputs.forEach((input) => {
   input.addEventListener('input', () => {
