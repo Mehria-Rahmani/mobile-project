@@ -1,6 +1,6 @@
 const data = { name: '', email: '', desc: '' };
 
-const fullname = document.getElementById('fullname');
+const Fullname = document.getElementById('fullname');
 const formEmail = document.getElementById('email');
 const formDesc = document.getElementById('desc');
 
@@ -13,7 +13,8 @@ function storageAvailable(type) {
     storage.setItem(x, x);
     storage.removeItem(x);
     return true;
-  } catch (e) {
+  } 
+  catch (e) {
     return (
       e instanceof DOMException
       // everything except Firefox
@@ -37,7 +38,7 @@ function storageAvailable(type) {
 function restoreValues() {
   if (storageAvailable('localStorage') && localStorage.length !== 0) {
     const temp = JSON.parse(localStorage.getItem('form'));
-    fullname.value = temp.name;
+    Fullname.value = temp.name;
     formEmail.value = temp.email;
     formDesc.innerText = temp.desc;
   }
@@ -46,7 +47,7 @@ restoreValues();
 // whenever a user changes values in the form
 // this function update the values in local storage
 function updateValues() {
-  data.name = fullname.value;
+  data.name = Fullname.value;
   data.email = formEmail.value;
   data.desc = formDesc.value;
   localStorage.setItem('form', JSON.stringify(data));
