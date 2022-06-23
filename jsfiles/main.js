@@ -38,6 +38,3 @@ subBtn.addEventListener('click', (event) => {
   }
 });
 
-email.addEventListener('input', () => {
-  document.getElementById('error').style.visibility = 'hidden';
-});
