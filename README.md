@@ -32,7 +32,9 @@
 - LinkedIn: [@mehria-rahmani](https://www.linkedin.com/in/mehria-rahmani-379211222) 
 
 # 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+- GitHub: @Ney2
+  - Twitter: @KidistGuta
+  - LinkedIn: @KidistDinku
 
 # Show your support
 Give a ⭐️ if you like this project!

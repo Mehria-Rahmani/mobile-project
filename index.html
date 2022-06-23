@@ -1,427 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5G2KZ3C8PX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehria Rahmani Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
+      gtag("config", "G-5G2KZ3C8PX");
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mehria Portfolio</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;300&family=Poppins:wght@200&family=Roboto&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round:regular,italic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  
-    <script src="./jsfiles/index.js"></script>
-</head>
-
-<body>
-    <header class="header">
-    
-    <nav class="nav">
-      <ul class="nav-container">
-        <li><a href="" class="logo2">Mehria</a></li>
-        <li>
-            <ul class="nav-ul">
-                <li> <a class="menu-desktop menu-links" href="">Portoflio</a></li>
-                <li> <a class="menu-desktop menu-links" href="#">About</a></li>
-                <li> <a class="menu-desktop menu-links" href="#">Contact</a></li>
-                <li> <a class="menu-desktop menu-links" href="#"><img alt="this is Email link" src="assets/mail.png"></a></li>
-            
-            </ul>
-        </li> 
-        <li class="menu_bar">
-           <img class="menu" src="./assets/Union.png" alt="menu-bar" />
-         </li>
-      </ul>
-
-        <!-- mobile menu -->
-        <div class="mobile-container">
-            <ul class="mobile-menu">
-                <li> <a href="#blackpage" class="mobile-navlink">Portfolio</a></li>
-                <li><a href="#page4" class="mobile-navlink">About</a></li>
-                <li><a href="#lastpage" class="mobile-navlink">Contact</a></li>
-            </ul>
-            <ul>
-                <li  class="menu-close">&times</li>
-            </ul>
+      rel="stylesheet"
+      href="style.css"
+    />
+    <script src="jsfiles/main.js" defer></script>
+    <script src="jsfiles/card.js" defer></script>
+  </head>
+  <body tabindex="0" class="container">
+    <section class="popup expand" id="popup">
+      <div class="popupWrapper">
+        <h1 class="popupTitle" id="popupTitle">Keeping track</h1>
+        <p class="closebutn">&times;</p>
+        <ul class="usedTechs span2c popupUsedTechs"></ul>
+        <img
+          class="popupImage"
+          id="popupImage"
+          src="#"
+          alt="The project screenshot"
+        />
+        <div class="popupBody">
+          <p class="popupDesc" id="popupDesc"></p>
+          <div class="btns">
+            <a href="#" id="livelink">
+              <div class="popupbtn mybtn">
+                See Live <img class="btnIcon" src="images/seelive.svg" alt="" />
+              </div>
+            </a>
+            <a href="#" id="sourcelink">
+              <div class="popupbtn mybtn">
+                See Source <img src="images/seeSource.svg" alt="" />
+              </div>
+            </a>
+          </div>
         </div>
-        
-    </nav>
-
-    <!-- <div class="mob-menu display-mob">
-        <div class="close mobile">
-            <a href="#"><img src="assets/Close.png" alt="Close-icon"></a>
-        </div> 
-        <div class="menu_item"></div>
-        <div class="menu_item"></div>
-        <div class="menu_item"></div>
-    -->
-
-        <!-- <nav class="">
-            <div class="menu-desktop-container">
-                <a class="menu-desktop menu-links" href="">Portoflio</a>
-                <a class="menu-desktop menu-links" href="#">About</a>
-                <a class="menu-desktop menu-links" href="#">Contact</a>
-                <a class="menu-desktop menu-links" href="#"><img alt="this is Email link" src="assets/mail.png"></a>
-            </div>
-    
-    </nav>
-</div> -->
-    
-    </header>
-
-    <section class="page1-content blackpage">
-      <div class="header-text">
-        <h1 class="my-name">Hey There.<br>I'm Mehria</h1>
-          <h2 class="my-position">I’am a Software Developer</h2>
-            <p class="discription-me">I am a software developer a graphic designer and a video journalist.
-                I can help you build a product, feature or website Look through some of my work and experience! If you
-                like
-                what you see and have a project you need to be coded,
-                don’t hesitate to contact me.
-            </p>
       </div>
-        <div class="page-footer">
-            <div class="social-media">
-                <ul class="icon-list">
-                    <li class="img-list">
-                        <a  href="https://github.com/Mehria-Rahmani/Hello-Microverse.git" target="_blank" rel="noopener">
-                            <img class="github icons" alt="It is Github Icon" src="assets/github.svg">
-                        </a>
-                    </li>
-                    <li class="img-list">
-                        <a href="https://www.linkedin.com/in/mehria-rahmani-379211222" target="_blank" rel="noopener">
-                            <img class="linkedin icons" alt="It is LinkedIn Icon" src="assets/linkedin.svg">
-                        </a>
-                    </li>
-                    <li class="img-list">
-                        <a href="#" target="_blank">
-                            <img class="due icons" alt="It is Medium Icon" src="assets/medium.svg">
-                        </a>
-                    </li>
-                    <li class="img-list">
-                        <a  href="https://twitter.com/MehriaRahmani?t=QwKwWXTVBZthv4sUrOXtfQ&s=08" target="_blank" rel="noopener">
-                            <img class="tweeter icons" alt="It is Tweeter Icon" src="assets/twitter.svg">
-                        </a>
-                    </li>
-                    <li class="img-list">
-                        <a href="#" target="_blank">
-                            <img class="m-icon icons" alt="it is angellist Icon" src="assets/angellist.svg">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <img class="b-img-1" alt="It is background Image" src="assets/Illustration.png">
-            </div>
-        </div>
-        <img class="desktop-b-img-1" src="assets/IllustrationDesktop.png" alt="It is background Image">
     </section>
-
-    <section class="my-projects">
-        <div class="projects-subject">
-          <h1 class="projects">My Recent Works</h1>
-          <hr class="line">
-        </div>
-        <div class="project-1">
-            <img alt="Project Image" class="project-img" src="assets/Img_Placeholder.png">
-            <div class="project-head">
-                <h2 class="heading2 multy-task">Multi-Post Stories</h2>
-                <p class="project-discription">A daily selection of privately personalized reads; no accounts or
-                    sign-ups
-                    required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                    took
-                    a standard dummy text.</p>
-                <ul class="web-icons icons-desktop">
-                    <li>
-                        <img alt="It is css Icon" class="icon-web" src="assets/icons/css.png">
-                    </li>
-                    <li>
-                        <img alt="It is html icon" class="icon-web" src="assets/icons/html.png">
-                    </li>
-                    <li>
-                        <img alt="It is bootstrap Icon" class="icon-web" src="assets/icons/bootstrap.png">
-                    </li>
-                    <li>
-                        <img alt="It is ruby Icon" class="icon-web" src="assets/icons/puby.png">
-                    </li>
-                </ul>
-                <form action="https://github.com/Mehria-Rahmani"  method="get" target="_blank">
-                    <button type="submit" class="animate-btn project-desktop-button button1 button1-text">See
-                        Project</button>
-                </form>
-            </div>
-        </div>
-        <div class="projects-section2">
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-            <div class="page2">
-                <h2 class="heading2 heading4 text-color h2-margin">Profesional Art Printing Data</h2>
-                <p class="project-discription project-discription2 text-color">A daily selection of privately
-                    personalized reads; no accounts
-                    or
-                    sign-ups required. has been the industry's standard</p>
-                <ul class="web-icons web-icons4">
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">html</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">bootstrap</button>
-                    </li>
-                    <li>
-                        <button type="submit" class="web-icon-page2 icon-web">Ruby</button>
-                    </li>
-                </ul>
-                <button type="submit" class="animate-btn button4 button2 button1-text">See Project</button>
-            </div>
-        </div>
+    <header class="toolbar">
+      <a class="name" href="#">Mehria Rahmani</a>
+      <nav class="menu" id="menu">
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+        <div class="menu_item"></div>
+      </nav>
+      <nav class="menuexpand expand">
+        <img
+          src="images/close.png"
+          alt="menu close button"
+          class="closebtn expand"
+        />
+        <a class="d_menu_item expitem" href="#portfolio">Portfolio</a>
+        <hr />
+        <a class="d_menu_item expitem" href="#about">About</a>
+        <hr />
+        <a class="d_menu_item expitem" href="#contact">Contact</a>
+        <hr />
+      </nav>
+      <nav class="desktop_menu">
+        <a class="d_menu_item" href="#">Portfolio</a>
+        <a class="d_menu_item" href="#">About</a>
+        <a class="d_menu_item" href="#">Contact</a>
+        <a class="d_menu_item fa-envelope-o fa-lg toolicon fa" href="#"></a>
+      </nav>
+    </header>
+    <section class="headline">
+      <div class="intro">
+        <h3 class="hey">
+          Hey there <br />
+          I'm Mehria
+        </h3>
+        <p class="iam">I'm a Software Developer</p>
+        <p class="about">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
+      <ul class="social_media social_media_desktop">
+        <li class="">
+          <a href="#"> <i class="fa fa-linkedin fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-github fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+        </li>
+      </ul>
     </section>
-
-    <section class="page6-content blackpage page4">
-        <div class="language-container">
-            <div class="desktop-language-texts">
-                <h1 class="my-name about-me">About me</h1>
-                <p class="discription-me about-mr-des">Hello I’m a software developer! I can help you build a product ,
-                    feature or
-                    website
-                    Look through some of my work and experience! If you like what you see and have a project you need
-                    coded,
-                    don’t hestiate to contact me.
-                </p>
-                <div class="page-footer about-me-footer">
-                    <button type="submit" class="animate-btn button1 button1-text button-resume">Get My Resume</button>
-                    <img class="b-img-1 b-img-2" alt="It is background Image" src="assets/Frame.png">
-                </div>
-            </div>
-            <button type="submit" class="animate-btn get-resume">Get My Resume</button>
-            <div class="d-about-b">
-                <img class="desktop-b-img-2" alt="It is background image" src="assets/frame2.png">
-            </div>
+    <section class="works" id="portfolio">
+      <div class="recentworkContainer">
+        <div class="recentWorkSectionTitle">
+          <h1 class="recentWork">My Recent Work</h1>
+          <div class="line"></div>
         </div>
-        <img alt="line" class="line line-language" src="assets/line2.png">
-        <hr class="desktop-language-line">
-        <div class="desktop-language">
-            <div class="page5">
-                <div class="language-desktop2">
-                    <div class="language">
-                        <img alt="It is shape" class="orange-vector" src="assets/Rectangle.png">
-                        <h2 class="lang-h2">Language</h2>
-                    </div>
-                    <div class="language-names">
-                        <ul class="language-list">
-                            <li class="language-list-content">
-                                Javascript
-                            </li>
-                            <li class="language-list-content">
-                                Ruby
-                            </li>
-                            <li class="language-list-content">
-                                Html
-                            </li>
-                            <li class="language-list-content">
-                                Css
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="Frameworks">
-                <div class="language">
-                    <img alt="It is shape" class="orange-vector" src="assets/Rectangle2.png">
-                    <h2 class="lang-h2">Frameworks</h2>
-                </div>
-                <div class="language-names">
-                    <ul class="language-list">
-                        <li class="language-list-content">
-                            Bootstrap
-                        </li>
-                        <li class="language-list-content">
-                            Ruby on Rails
-                        </li>
-                        <li class="language-list-content">
-                            RSPec
-                        </li>
-                        <li class="language-list-content">
-                            CapyBara
-                        </li>
-                        <li class="language-list-content">
-                            Selenium
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="language skills">
-                    <img alt="It is shape" class="orange-vector" src="assets/Rectangle3.png">
-                    <h2 class="lang-h2">Skills</h2>
-                </div>
-                <div class="language-names">
-                    <ul class="language-list">
-                        <li class="language-list-content">
-                            Codekit
-                        </li>
-                        <li class="language-list-content">
-                            Github
-                        </li>
-                        <li class="language-list-content">
-                            Codepen
-                        </li>
-                        <li class="language-list-content">
-                            Gitlab
-                        </li>
-                        <li class="language-list-content">
-                            Terminal
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="lastpage">
-        <div class="contact-form">
-            <h2 class="lastpage-heading">I'm always interested in hearing about new projects, so if you'd like to chat
-                please get in touch.</h2>
-            <form class="form" action="https://formspree.io/f/xnqwwrzy" method="POST">
-                <input class="fullname" type="text" name="fullname" placeholder="Full name" required>
-                <input class="fullname" type="email" name="fullname" placeholder="Email address" required>
-                <textarea class="text-area" placeholder="Enter text here" required></textarea>
-                <button type="submit" class="animate-btn button1 button1-text button-end btn-d">Get in touch</button>
-            </form>
-        </div>
-        <hr class="footer-line1">
-        <ul class="icon-list last-page-footer">
-            <li class="img-list">
-                <a  href="https://github.com/Mehria-Rahmani/Hello-Microverse.git" target="_blank" rel="noopener">
-                    <img class="github icons" alt="It is Github Icon" src="assets/github.svg">
-                </a>
-            </li>
-            <li class="img-list">
-                <a href="https://www.linkedin.com/in/mehria-rahmani-379211222" target="_blank" rel="noopener">
-                    <img class="linkedin icons" alt="It is LinkedIn Icon" src="assets/Linkedin.svg">
-                </a>
-                <li class="img-list">
-                    <a href="#" target="_blank">
-                        <img class="m-icon icons" alt="It is angellist icon" src="assets/angellist.svg">
-                    </a>
-                </li>
-            <li class="img-list">
-                <a href="#" target="_blank" rel="noopener">
-                    <img class="due icons" alt="it is Medium Icon" src="assets/medium.svg">
-                </a>
-            </li>
-            <li class="img-list">
-                <a  href="https://twitter.com/MehriaRahmani?t=QwKwWXTVBZthv4sUrOXtfQ&s=08" target="_blank" rel="noopener">
-                    <img class="It is tweeter icons" alt="Tweeter Icon" src="assets/twitter.svg">
-                </a>
-            </li>   
+    
+        <img
+          class="recentWorkPic"
+          src="images/recentWork.png"
+          alt="the photo of my recent project"
+        />
+        <h3 class="recentWorkTitle">Multi-Post Stories</h3>
+        <p class="recentWorkDesc">
+          A daily selection of privately personalized reads; no accounts or
+          sign-ups required. has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul class="usedTechs">
+          <li class="tech">CSS</li>
+          <li class="tech">HTML</li>
+          <li class="tech">Bootstrap</li>
+          <li class="tech">Ruby</li>
         </ul>
+        <button class="mybtn recentbtn" id="recentbutton" type="button">
+          See Project
+        </button>
+      </div>
+      <div class="workCards"></div>
     </section>
-    <script rel="text/Javascript"  src="./jsfiles/index.js"></script>
-    <script src="main.js"></script>
+    <section class="aboutme" id="about">
+      <div class="aboutmeWrapper">
+        <h3 class="aboutmeTitle">About me</h3>
+        <p class="aboutmeDesc recentWorkDesc wc">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <button class="mybtn getResume" type="button">Get My Resume</button>
+      </div>
+      <div class="line ab"></div>
 
-</body>
+      <ul class="skillContainer">
+        <li class="skillCategory skillTitle">
+          <div class="bullets language"></div>
+          <h1>Language</h1>
+        </li>
+        <li class="skillCategory">
+          <ul class="skill">
+            <li class="subSkill">Javascript</li>
+            <li class="subSkill">Ruby</li>
+            <li class="subSkill">HTML</li>
+            <li class="subSkill">CSS</li>
+          </ul>
+        </li>
+        <li class="skillCategory skillTitle">
+          <div class="bullets"></div>
+          <h1>Frameworks</h1>
+        </li>
+        <li class="skillCategory">
+          <ul class="skill">
+            <li class="subSkill">Bootstrap</li>
+            <li class="subSkill">Ruby on Rails</li>
+            <li class="subSkill">RSPec</li>
+            <li class="subSkill">CopyBara</li>
+            <li class="subSkill">Selenium</li>
+          </ul>
+        </li>
+        <li class="skillCategory skillTitle">
+          <div class="circle"></div>
+          <h1>Skills</h1>
+        </li>
+        <li class="skillCategory">
+          <ul class="skill">
+            <li class="subSkill">Codekit</li>
+            <li class="subSkill">Github</li>
+            <li class="subSkill">Codepen</li>
+            <li class="subSkill">Gitlab</li>
+            <li class="subSkill">Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="contactMe" id="contact">
+      <h3 class="contactDesc">
+        I'm always <br />
+        interested in hearing about new projects, so if you'd like to chat
+        please get in touch.
+      </h3>
+      <form
+        action="https://formspree.io/f/xpzkoeda"
+        method="post"
+        class="form"
+        novalidate
+      >
+        <ul>
+          <li>
+            <input
+              class="mytextArea formin"
+              id="fullname"
+              required
+              type="text"
+              name="Fullname"
+              placeholder="Full name"
+              maxlength="30"
+            />
+          </li>
+          <li>
+            <input
+              class="mytextArea formin"
+              required
+              id="email"
+              type="email"
+              name="mail"
+              placeholder="Email address"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            />
+          </li>
+          <li>
+            <textarea
+              required
+              class="desc formin"
+              id="desc"
+              cols="30"
+              rows="5"
+              placeholder="Enter Text here"
+              maxlength="500"
+              name="comments"
+            ></textarea>
+          </li>
+          <li class="error">
+            <span class="error" id="error" aria-live="polite"> </span>
+          </li>
+        </ul>
+        <button class="mybtn getInTouchBtn" id="subBtn" type="submit">
+          Get in touch
+        </button>
+      </form>
+    </section>
+    <footer class="myfooter">
+      <ul class="social_media">
+        <li class="">
+          <a href="#"> <i class="fa fa-linkedin fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-github fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        </li>
+        <li class="">
+          <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+        </li>
+      </ul>
+      <div class="footerLine"></div>
+    </footer>
+  </body>
 </html>
