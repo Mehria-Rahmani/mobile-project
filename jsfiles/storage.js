@@ -42,7 +42,6 @@ function restoreValues() {
     formDesc.innerText = temp.desc;
   }
 }
-
 restoreValues();
 // whenever a user changes values in the form
 // this function update the values in local storage
